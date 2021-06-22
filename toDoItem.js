@@ -1,8 +1,10 @@
-function ToDoItem(text, isComplete) {
+function ToDoItem(text) {
   this.text = text;
-  this.isComplete = isComplete;
+  this.isComplete = false;
   this.delete = function () {};
   this.markComplete = function () {};
 
   this.markIncomplete = function () {};
 }
+
+export default ToDoItem;
